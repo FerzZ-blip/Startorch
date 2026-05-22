@@ -1,0 +1,65 @@
+<h2>Programs Page — Layout Concept</h2>
+<p class="subtitle">CSS-only tabbed interface. Each tab reveals a full program detail section.</p>
+
+<div class="mockup">
+  <div class="mockup-header">Page Structure</div>
+  <div class="mockup-body" style="font-family: monospace; font-size: 0.85rem; line-height: 1.8; padding: 1.5rem; background: #1a1a1a; color: #c0b8a8;">
+    <div style="color: #f0a040; margin-bottom: 0.5rem;">[ NAV ] Spacetrek Collective | About Programs Research Admissions Campus | $ STATUS</div>
+    <div style="border: 1px solid #333; padding: 1.5rem; margin-bottom: 1rem; background: #111;">
+      <div style="color: #f0a040; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase;">Programs</div>
+      <div style="font-size: 1.8rem; color: #e8e0d0; font-family: serif; margin: 0.5rem 0;">Academic Programs</div>
+      <div style="color: #888; font-style: italic; max-width: 50ch;">Three disciplines. One mission. Choose your path.</div>
+    </div>
+    <div style="display: flex; gap: 0; border-bottom: 1px solid #444; margin-bottom: 1rem;">
+      <div style="padding: 0.75rem 1.5rem; background: #f0a040; color: #111; font-size: 0.8rem; letter-spacing: 0.1em;">SYNCHRONISTS</div>
+      <div style="padding: 0.75rem 1.5rem; color: #888; font-size: 0.8rem; letter-spacing: 0.1em;">LIGHT ENERGY</div>
+      <div style="padding: 0.75rem 1.5rem; color: #888; font-size: 0.8rem; letter-spacing: 0.1em;">EXOSTRIDER</div>
+    </div>
+    <div style="border: 1px solid #333; padding: 2rem; background: #0d0d0d;">
+      <div style="color: #555; font-style: italic; font-size: 1.1rem; margin-bottom: 1rem;">"For The Future"</div>
+      <div style="font-size: 1.5rem; color: #e8e0d0; font-family: serif; margin-bottom: 0.75rem;">Synchronists Development</div>
+      <div style="color: #a09888; max-width: 60ch; margin-bottom: 2rem;">Program dedicated to discovering and cultivating future Synchronists...</div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+        <div>
+          <div style="color: #f0a040; font-size: 0.7rem; letter-spacing: 0.15em; margin-bottom: 0.5rem;">CURRICULUM</div>
+          <div style="color: #888; font-size: 0.85rem;">Resonance Theory<br>Synchronization Practice<br>Frequency Mapping<br>Field Applications</div>
+        </div>
+        <div>
+          <div style="color: #f0a040; font-size: 0.7rem; letter-spacing: 0.15em; margin-bottom: 0.5rem;">REQUIREMENTS</div>
+          <div style="color: #888; font-size: 0.85rem;">Resonator classification<br>Baseline sync threshold<br>Written assessment</div>
+        </div>
+      </div>
+      <div style="margin-top: 2rem;">
+        <div style="color: #f0a040; font-size: 0.7rem; letter-spacing: 0.15em; margin-bottom: 0.5rem;">FACULTY</div>
+        <div style="color: #888; font-size: 0.85rem;">Dr. Luuk Herssen — Director of Resonance Studies</div>
+      </div>
+      <div style="margin-top: 2rem;">
+        <div style="color: #f0a040; font-size: 0.7rem; letter-spacing: 0.15em; margin-bottom: 0.5rem;">ACTIVE RESEARCH</div>
+        <div style="color: #888; font-size: 0.85rem;">Resonator-Mech Synchronization Protocol v4.2</div>
+      </div>
+    </div>
+    <div style="border: 1px solid #333; padding: 1.5rem; margin-top: 1rem; background: #111;">
+      <div style="color: #8a8; font-size: 0.8rem;">> Program Status: Active &nbsp; > Enrolled: 247 &nbsp; > Sync Rate: 94.2%</div>
+      <div style="color: #8a8; font-size: 0.8rem;">> Next Intake: Cycle 47 &nbsp; > Faculty: 12 &nbsp; > _</div>
+    </div>
+    <div style="margin-top: 1rem; border-top: 1px solid #333; padding-top: 1rem; color: #555; font-size: 0.75rem;">[ FOOTER ] Spacetrek Collective · Startorch Academy</div>
+  </div>
+</div>
+
+<div class="pros-cons" style="margin-top: 1.5rem;">
+  <div class="pros"><h4>Key Features</h4>
+    <ul>
+      <li>CSS-only tabs using :target — no JS</li>
+      <li>Each program gets full detail: curriculum, requirements, faculty, research</li>
+      <li>Terminal readout per program for worldbuilding flavor</li>
+      <li>Dark page throughout — no parchment section</li>
+    </ul>
+  </div>
+  <div class="cons"><h4>Trade-offs</h4>
+    <ul>
+      <li>:target means URL changes on tab switch (back button works)</li>
+      <li>Default tab requires a redirect or hash in URL</li>
+      <li>Longer page per program — more content to write</li>
+    </ul>
+  </div>
+</div>

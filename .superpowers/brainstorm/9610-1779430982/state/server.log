@@ -1,0 +1,2 @@
+{"type":"server-started","port":65481,"host":"0.0.0.0","url_host":"localhost","url":"http://localhost:65481","screen_dir":"/home/fer/Documents/Startorch/.superpowers/brainstorm/9610-1779430982/content","state_dir":"/home/fer/Documents/Startorch/.superpowers/brainstorm/9610-1779430982/state"}
+{"type":"server-stopped","reason":"owner process exited"}
